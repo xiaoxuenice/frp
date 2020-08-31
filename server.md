@@ -1,3 +1,4 @@
+#!/bin/bash
 export FRP_VERSION=0.29.1
 sudo mkdir -p /etc/frp
 cd /etc/frp
