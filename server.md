@@ -15,6 +15,6 @@ Wants=network.target
 [Service]
 Type=simple
 #启动服务的命令（此处写你的frps的实际安装目录）
-ExecStart=/etc/frp/frp/frpc -c /etc/frp/frp/frpc.ini
+ExecStart=/etc/frp/frp/frps -c /etc/frp/frp/frps.ini
 [Install]
 WantedBy=multi-user.target
